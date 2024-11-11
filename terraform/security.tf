@@ -11,6 +11,9 @@ module "audit_accont" {
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
+    SSOUserEmail     = "l.dario@vargroup.it"
+    SSOUserFirstName = "Luca"
+    SSOUserLastName  = "Dario"
   }
 
   account_tags = {
