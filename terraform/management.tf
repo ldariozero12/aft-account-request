@@ -5,10 +5,10 @@ module "audit_accont" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "l.dario+aws-audit@vargroup.it"
-    AccountName  = "audit"
+    AccountEmail = "  l.dario@vargroup.it"
+    AccountName  = "ldario-var"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Security"
+    ManagedOrganizationalUnit = "Root"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "l.dario@vargroup.it"
@@ -36,5 +36,5 @@ module "audit_accont" {
     custom1 = "a"
     custom2 = "b"
   }
-  account_customizations_name = "lnz-audit"
+  account_customizations_name = "lnz-management"
 }

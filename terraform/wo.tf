@@ -37,4 +37,5 @@ module "w_tst_account" {
     custom1 = "a"
     custom2 = "b"
   }
+  account_customizations_name = "lnz-w1-tst"
 }
