@@ -5,8 +5,8 @@ module "w_tst_account" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "l.dario+aws-wo1-tst@vargroup.it"
-    AccountName  = "w1-tst"
+    AccountEmail = "l.dario+aws-wo2-tst@vargroup.it"
+    AccountName  = "w2-tst"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Tst (ou-rnzg-vkc3ri6v)"
     # Syntax for nested OU
