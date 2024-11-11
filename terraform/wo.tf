@@ -17,7 +17,7 @@ module "w_tst_account" {
   }
 
   account_tags = {
-    "ABC:Owner"       = "john.doe@amazon.com"
+    "ABC:Owner"       = "l.dario+aws-wo1-tst@vargroup.it"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
@@ -28,8 +28,8 @@ module "w_tst_account" {
   }
 
   change_management_parameters = {
-    change_requested_by = "John Doe"
-    change_reason       = "testing the account vending process"
+    change_requested_by = "New Account"
+    change_reason       = "New Account"
   }
 
   custom_fields = {
