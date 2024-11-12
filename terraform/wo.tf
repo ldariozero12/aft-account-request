@@ -8,7 +8,8 @@ module "w_tst_account" {
     AccountEmail = "l.dario+aws-wo2-tst@vargroup.it"
     AccountName  = "w2-tst"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Tst (ou-rnzg-ggjd7y89)"
+    ManagedOrganizationalUnit = "Prd (ou-rnzg-42z6iq1p)"
+    
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "l.dario@vargroup.it"

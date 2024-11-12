@@ -1,7 +1,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-module "audit_accont" {
+module "sso_accont" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
