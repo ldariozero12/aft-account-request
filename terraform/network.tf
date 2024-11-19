@@ -5,7 +5,7 @@ module "network_accont" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "l.dario+aws-audit@vargroup.it"
+    AccountEmail = "l.dario+aws-network@vargroup.it"
     AccountName  = "network"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Foundational"
